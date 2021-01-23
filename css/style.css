@@ -1,0 +1,431 @@
+/***** Fonts *****/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/***** Body ****/
+html, body {
+    background-color: #ffffff;
+    height: 100vh;
+    scroll-behavior: smooth;
+    max-width: 100%;
+}
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+}
+h4{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+/****** Header *****/
+header {
+    width:100%;
+    height: 400px;
+    background: url(../assets/feuilles-vertes.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.en-tete{
+    padding: 10%;
+}  
+.bloc-header {
+    margin: 0 auto;
+    color: #ffffff;
+    text-align: center;
+    background-color:rgba(100, 100, 100, 0.5);
+    border: 5px solid white;
+    padding: 2%;
+}
+.bloc-header h2{
+    font-size: 1.6rem;
+}
+
+
+/***** Navbar *****/
+.navperso{
+    background-color: rgba(100, 100, 100, 0.5);
+    height: 70px;
+
+}
+nav .nav-item{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+nav .nav-link{
+    color: #ffffff;
+    line-height: 50px;
+    font-size: 1.4rem;
+}
+nav .nav-link:hover{
+    color: #729E8B;
+}
+
+nav .navbar-toggler{
+    border-color: #ffffff;
+    color: #ffffff !important;
+    width: 50px;
+    height: 50px;
+}
+
+
+/********Présentation***********/
+
+#presentation{
+    padding-top: 3%;
+    text-align: center;
+}
+#presentation span{
+    font-size: 1.8rem;
+    line-height: 5rem;
+}
+#presentation a{
+    text-decoration: none;
+}
+#presentation a:hover{
+    color: #729E8B;
+}
+
+#btn-cv{
+    position: relative;
+    line-height: 140px;
+    color: #729E8B;
+    border-radius: 5px;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+}
+#btn-cv::before{
+    background: #214039;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+    width: 0%;
+    height: 100%;
+}
+#btn-cv:hover::before{
+    width: 100%;
+}
+/*******Parcours********/
+
+.title h2,h4{
+    text-align: center;
+      
+}
+.background-title{
+    height : 150px ;
+    width : 100%;
+   
+    
+}
+.title h2{
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 150px;
+    background: url(../assets/feuilles-vertes.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+.title h4{
+    margin-top: 100px;
+      
+}
+.title-form{
+    color:rgba(219, 88, 83, 0.8);
+}
+.title-exp{
+    color:#478777;
+}
+.timeline{
+    margin-top: 30px;
+    
+}
+
+.timeline h3{
+    margin-bottom: 5px;
+}
+.timeline h5{
+    font-size: 0.8rem;
+    line-height: 25px;
+    color:rgba(24, 51, 38, 0.5);
+}
+.orange{
+    color: rgba(219, 88, 83, 0.8);
+}
+.vert{
+    color: #478777;
+}
+.timeline p{
+    color:rgba(24, 51, 38, 0.8);
+    font-size:0.8rem;
+}
+
+.line-left{
+    border-left: rgba(33,64,57, 0.5) dotted 2px;
+    padding-right: 10%;
+}
+.line-right{
+    border-right: rgba(219,88,83, 0.6) dotted 2px;
+
+}
+
+/***********Compétences************/
+
+#competences{
+    margin-top: 100px;
+
+}
+#competences .presentation{
+    margin-top: 3%;
+    text-align: center;
+}
+#competences h4{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+#competences .subtitle{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #a8a8a8;
+}
+.bloc-comp{
+   padding-left: 80px;
+}
+.bar{
+    height:40px;
+}
+.text-bardev{
+    text-align: left;
+    padding-left: 10px;
+    background-color: #db5853;
+    font-size: 1rem;
+}
+.container-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-flex li{
+    margin: 10px;
+    padding: 0 10px 0 10px;
+    max-width: 100%;
+    height: 40px;
+    line-height: 40px; 
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    
+}
+.back-orange li{
+    background-color: #db5853;
+}
+.back-green li{
+    background-color: rgba(71, 135, 119, 0.8); 
+}
+
+/******** Réalisations ************/
+#realisations {
+    margin-top: 100px;
+}
+#realisations .ensemblecard{
+    margin: 70px 0 35px 0;
+}
+#realisations .mycard{
+    background-color:rgba(114, 158, 139,0.8);
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+#realisations .mycard img{
+    
+    padding:30px;
+    
+}
+#realisations .mycard-body{
+    padding:20px;
+}
+#realisations .mycard-text{
+    font-size: 1rem;
+    text-align: justify;
+    
+}
+#realisations .btncard{
+    background-color: #214039;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+#realisations .btncard:hover{
+    color: #478777;
+}
+
+
+/***********Contact************/
+#bloc-contact{
+    margin: 70px 0 35px 0;
+}
+#coordonnees{
+    text-align: center;
+}
+#coordonnees a{
+    text-decoration: none;
+}
+#coordonnees a:hover{
+    color: #729E8B;
+}
+/* Bouton cv */
+.cv{
+    position: relative;
+    line-height: 70px;
+    color: #729E8B;
+    margin: 30px 0;
+    border-radius: 5px;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+}
+.cv::before{
+    background: #214039;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+    width: 0%;
+    height: 100%;
+}
+.cv:hover::before{
+    width: 100%;
+}
+
+/***********Footer************/
+footer{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    background-color: #214039;
+}
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+footer a:hover{
+    color: #478777;
+}
+
+
+/******* MEDIA QUERIES ********/
+
+@media screen and (max-width: 992px) {
+
+    /* header */
+    .en-tete{
+        padding-top: 15%;
+    }
+    .bloc-header h1{
+        font-size: 2.3rem;
+    }
+    .bloc-header h2{
+        font-size:1.3rem;
+    }
+
+    /* sections */
+    .title h2{
+        font-size:2.3rem;
+    }
+    .timeline h3{
+        font-size: 1.2rem;
+    }
+}    
+  
+
+@media screen and (max-width: 768px) {
+
+    /* header */
+    .en-tete{
+        padding-top: 22%;
+    }
+    .presentation {
+        font-size: 0.9rem;
+    }
+    #navbarResponsive{
+        background-color: rgba(100, 100, 100, 0.5);
+        margin-top: 12px;
+        
+    }
+
+      /* competences */
+      .title-form{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    /* header */
+    .en-tete{
+        padding-top: 28%;
+    }
+    .presentation {
+        font-size: 0.8rem;
+    }
+    .presentation span{
+        font-size: 1.5rem;
+    }
+    
+     /* sections */
+     .title h2{
+        font-size:2rem;
+    }
+    .title h4{
+        font-size: 1.4rem;
+    }
+
+    /* parcours */
+    .timeline h3{
+        font-size: 1.2rem;
+    }
+    .timeline h5{
+        font-size:0.8rem;
+    }
+    .timeline p{
+        font-size: 0.8rem;
+    }
+
+    /* competences */
+    .title-form{
+        font-size: 1.2rem;
+    }
+    .subtitle{
+        font-size: 1rem;
+    }
+    .bar{
+        height:30px;
+    }
+    .container-flex li, .text-bardev{
+        font-size: 0.8rem;
+    }
+    /* contact */
+    #coordonnees{
+        font-size: 0.8rem;
+    }
+    #coordonnees a{
+        font-size: 0.6rem;
+    }
+}
+  
+
+
+
+

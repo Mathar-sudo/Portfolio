@@ -1,0 +1,115 @@
+
+
+
+
+body {
+  color: #ffffff;
+  margin: 0;
+  padding:0;
+  font-weight: bold;
+  background: #ffffff;
+}
+
+/**********PAGES**********/
+.ensemble {
+  display: flex;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.page  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-size: 1.5rem;
+  transition: ease 0.8s;
+}
+
+.pages {
+  filter: contrast(50%);
+}
+
+
+.title {
+  font-size: 3rem;
+}
+
+.title:hover{
+  font-size: 4rem;
+  transition-duration: 0.6s;
+  cursor: pointer;
+}
+
+.paragraph {
+  display: none;
+}
+
+.date{
+  font-size: 1rem;
+  color: #8fc7ca;
+}
+.activity{
+  font-size: 1.2rem;
+}
+.details{
+  font-size: 0.8rem;
+  color: #8fc7ca;
+  cursor: pointer;
+}
+.page .paragraph .text{
+  font-size: 0.6rem;
+  display: none;
+}
+hr{
+  color: #8fc7ca;
+  width: 50%;
+}
+button .details{
+  color: #ffffff;
+  background-color: #8fc7ca;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn-cv{
+  background-color: #8fc7ca;
+  color: #ffffff;
+  font-size: 1rem;
+  width: 200px;
+  height: 30px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.btn-cv:hover{
+  background-color:#182F30;
+}
+.page1 {
+  background-image: url('images/bois-nervures.jpg');
+}
+
+.page2 {
+  background-image: url('images/feuilles-vertes.jpg');
+}
+
+.page3 {
+  background-image: url('images/bois.jpg');
+}
+
+.page4 {
+  background-image: url('images/feuilles-rouges.jpg');
+}
+
+/************PAGE VISIBLE**********/
+.primary-page{
+  flex:3;
+}
+
+.primary-page .paragraph {
+  display: inline;
+  padding: 5%;
+}  
