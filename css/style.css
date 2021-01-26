@@ -73,18 +73,18 @@ nav .navbar-toggler{
 
 /********Présentation***********/
 
-#presentation{
-    padding-top: 3%;
+.presentation{
+    padding-top: 2%;
     text-align: center;
 }
-#presentation span{
+.presentation span{
     font-size: 1.8rem;
     line-height: 5rem;
 }
-#presentation a{
+.presentation a{
     text-decoration: none;
 }
-#presentation a:hover{
+.presentation a:hover{
     color: #729E8B;
 }
 
@@ -231,13 +231,16 @@ nav .navbar-toggler{
 .back-green li{
     background-color: rgba(71, 135, 119, 0.8); 
 }
+.short{
+    display: none;
+}
 
 /******** Réalisations ************/
 #realisations {
     margin-top: 100px;
 }
 #realisations .ensemblecard{
-    margin: 70px 0 35px 0;
+    margin: 40px 0 35px 0;
 }
 #realisations .mycard{
     background-color:rgba(114, 158, 139,0.8);
@@ -415,6 +418,12 @@ footer a:hover{
     }
     .container-flex li, .text-bardev{
         font-size: 0.8rem;
+    }
+    .short{
+        display: block;
+    }
+    .long{
+        display:none;
     }
     /* contact */
     #coordonnees{
