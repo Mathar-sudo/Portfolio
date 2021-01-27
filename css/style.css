@@ -72,6 +72,7 @@ nav .navbar-toggler{
 
 
 /********Présentation***********/
+
 .space{
     margin-top: 8%;
 }
@@ -351,6 +352,10 @@ footer a:hover{
 
 @media screen and (max-width: 768px) {
 
+
+    /* navigation */
+
+   
     /* header */
     .en-tete{
         padding-top: 22%;
@@ -384,6 +389,9 @@ footer a:hover{
     }
     
      /* sections */
+     #intro{
+        padding:0 8% 0 8%;
+    }
      .title h2{
         font-size:2rem;
     }
