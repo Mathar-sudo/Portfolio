@@ -314,6 +314,8 @@ footer{
 footer a{
     text-decoration: none;
     color: #ffffff;
+    font-size: 1.5rem;
+    padding-right: 15px;
 }
 footer a:hover{
     color: #478777;
