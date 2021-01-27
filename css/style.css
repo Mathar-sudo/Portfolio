@@ -72,9 +72,11 @@ nav .navbar-toggler{
 
 
 /********Présentation***********/
-
+.space{
+    margin-top: 8%;
+}
 .presentation{
-    padding-top: 2%;
+    padding-top: 5%;
     text-align: center;
 }
 .presentation span{
@@ -180,14 +182,6 @@ nav .navbar-toggler{
 
 /***********Compétences************/
 
-#competences{
-    margin-top: 100px;
-
-}
-#competences .presentation{
-    margin-top: 3%;
-    text-align: center;
-}
 #competences h4{
     margin-top: 30px;
     margin-bottom: 50px;
@@ -236,9 +230,6 @@ nav .navbar-toggler{
 }
 
 /******** Réalisations ************/
-#realisations {
-    margin-top: 100px;
-}
 #realisations .ensemblecard{
     margin: 40px 0 35px 0;
 }
@@ -349,6 +340,11 @@ footer a:hover{
     }
     .timeline h3{
         font-size: 1.2rem;
+    }
+
+    /* competences */
+    .bloc-comp{
+        padding:0;
     }
 }    
   
