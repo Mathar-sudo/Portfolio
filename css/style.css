@@ -271,15 +271,19 @@ nav .navbar-toggler{
 }
 #coordonnees a{
     text-decoration: none;
-}
-#coordonnees a:hover{
     color: #729E8B;
 }
+#coordonnees .mail:hover{
+    color: #214039;
+}
+.cv:hover{
+    color: #729E8B;
+}
+
 /* Bouton cv */
 .cv{
     position: relative;
     line-height: 70px;
-    color: #729E8B;
     margin: 30px 0;
     border-radius: 5px;
     padding: 20px 40px;
@@ -353,10 +357,6 @@ footer a:hover{
   
 
 @media screen and (max-width: 768px) {
-
-
-    /* navigation */
-
    
     /* header */
     .en-tete{
