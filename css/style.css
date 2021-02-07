@@ -245,12 +245,20 @@ nav .navbar-toggler{
     
 }
 #realisations .mycard-body{
-    padding:20px;
+    padding: 10px 20px 20px 20px;
+}
+#realisations .mycard-subtitle{
+    font-size: 0.9rem;
+    font-style: italic;
 }
 #realisations .mycard-text{
     font-size: 1rem;
-    text-align: justify;
-    
+    text-align: justify; 
+}
+#pass{
+    font-size: 0.8rem;
+    line-height: 1rem;
+    margin-bottom: 30px;
 }
 #realisations .btncard{
     background-color: #214039;
@@ -353,7 +361,8 @@ footer a:hover{
     .bloc-comp{
         padding:0;
     }
-}    
+
+ 
   
 
 @media screen and (max-width: 768px) {
