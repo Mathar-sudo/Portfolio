@@ -6,13 +6,17 @@
     
     <title>Mathilde Arena | Portfolio | Web Développeuse Junior</title>
     
-    <meta name="keywords" content="Mathilde Arena, Portfolio, Web développeur, Web, Front-End, Full-Stack, Back-End, Site iternet, Informatique, Intégration, Développement Web, HTML, CSS, Javascript, PHP, Wordpress, France, Lyon, Rhône-Alpes">
+    
     <meta name="author" content="Mathilde Arena">
-    <meta name="description" content="Je suis Mathilde Arena, actuellement en formation Développeur Web et Web Mobile, mon objectif est de devenir Web Développeuse Front-End, puis dans quelques années, Full-Stack. Pour cela, j'aimerai continuer ma formation en obtenant le titre de Concepteur Développeur d'Applications en alternance. Bienvenue donc sur mon site web, cv , portfolio ! ">
+    <meta name="description" content="Mathilde Arena, Développeuse Web débutante sur Lyon, Rhône-Alpes. Mon objectif est de devenir Web Développeuse Front-End, puis dans quelques années, Full-Stack. Ceci est mon site web, cv, portfolio. ">
     
     
     <!-- Copyright 2021 - Mathilde Arena -->
 
+    <!-- URL canonical -->
+    <link rel="canonical" href="https://www.mathildearena.fr/" />
+    <!-- Favicon-->
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
     
     <!-- Font Awesome icons-->
     <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
@@ -29,10 +33,11 @@
     <link  rel="stylesheet" type="text/css" href="./css/reset.css">
     <link  rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
+
 <body>
     <header>
          <nav class="navbar bg-menu fixed-top navbar-expand-md navperso" id="mainNav">
-
+            <!-- Navbar Responsive -->
             <button class="navbar-toggler navbar-toggler-right" id="btnMenu" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars iconMenu"></i>
             </button>
@@ -66,8 +71,8 @@
        
             <div class="row justify-content-center" id="intro">
                 <div class="col-lg-6 col-md-6 col-sm-8 col-xs-6 presentation">
-                    <h4>Bonjour ! </h4>
-                    <p>Je suis Mathilde Arena, actuellement en formation Développeur Web et Web Mobile. <br/>Avec mes anciennes études et expériences, j'ai une préférence pour le Front-End. <br/>Mais comme il y a constament des nouveautés à découvrir dans ce métier et que j'ai toujours soif d'apprendre, j'aimerai dans quelques années, devenir Full-Stack. <br/>Pour cela, je veux continuer ma formation en obtenant le titre de Concepteur Développeur d'Applications en alternance.<br/> Bienvenue donc sur mon site web, cv, portfolio ! </p>
+                    <h3>Bonjour ! </h3>
+                    <p>Je suis Mathilde Arena, Développeuse Web débutante. <br/>Avec mes anciennes études et expériences, j'ai une attirance pour le Front-End. <br/>Toutefois, ma soif d'apprendre et de découvrir ce métier m'aménera, je l'espère, à devenir Développeuse Full-Stack dans quelques années. <br/>Bienvenue donc sur mon site web, cv, portfolio ! </p>
                     <a href='./assets/CV.pdf' id="btn-cv">Téléchargez mon CV</a>
                 </div>
             </div>
@@ -76,7 +81,7 @@
         <!-- DEBUT PARCOURS -->
        
         <section class="container-fluid" id="parcours">
-            <div class="row justify-content-center space">
+            <div class="row justify-content-center">
                 <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 title background-title">
                         <h2 class="title">Mon parcours</h2>                    
                 </div>
@@ -92,7 +97,24 @@
                 </div>
             
                 <ul class="timeline ">
-                    
+                    <li class="timeline">
+                        <div class="row justify-content-center">
+                            <div class="col-5 text-right">
+                                <h5>Mars 2021 - Avril 2021</h5>
+                            </div>
+                            <div class="col-5 line-left text-left">
+                                
+                                <h3 class="vert">
+                                    Stage Développeur Web Front-End
+                                </h3>
+                                <p class="long">(TooLink, LYON)<br/>
+                                    Travail en équipe, création d’un site web pour présenter une nouvelle application mobile : développé en HTML5/CSS3/Javascript, conception de l’architecture et des blocs fonctionnels, implémentation des blocs techniques, mise en conformité avec la charte graphique établie, adaptation responsive. 
+                                </p>
+                                <p class="short">(TooLink, LYON)<br/>
+                                    Travail en équipe, création d’un site web développé en HTML5/CSS3/Javascript</p>
+                            </div>
+                        </div>
+                    </li>
                     <li class="timeline">
                         <div class="row justify-content-center">
                             <div class="col-5 line-right text-right"> 
@@ -244,6 +266,24 @@
                     </li>
                     <li class="timeline">
                         <div class="row justify-content-center">
+                            <div class="col-5 text-right">
+                                <h5>2006 - 2010</h5>
+                            </div>
+                            <div class="col-5 line-left text-left">
+                                
+                                <h3 class="vert">
+                                    Stages Production Graphique
+                                </h3>
+                                <p class="long">(GRENOBLE et TURIN - Italie)<br/>
+                                    Création et reproduction de mise en page, retouche photo, création de logo, imposition, finition, installation de signalétique.
+                                </p>
+                                <p class="short">(Carré Fleurs, GRENOBLE et LYON)<br/>
+                                    Création et reproduction de mise en page, retouche photo, création de logo, imposition, finition, installation de signalétique.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline">
+                        <div class="row justify-content-center">
                             <div class="col-5 line-right text-right">
                                 
                                 <h3 class="orange">
@@ -362,11 +402,11 @@
                 </div>
             </div>
             <div class="row justify-content-center ensemblecard">
-                <div class="col-xl-5 col-lg-5 col-md-8 col-sm-10">
+                <div class="col-xl-10 col-lg-10 col-md-8 col-sm-10">
                     <div class="mycard">
                         <img src="assets/winnerschool.JPG" alt="Projet Winnerschool">
                         <div class="mycard-body">
-                            <h3 class="mycard-title">Winnerschool</h3>
+                            <h4>Winnerschool</h4>
                             <h5>Outils : HTML5/CSS3/Ajax/jQuery/Bootstrap/PHP7/MySQL avec PhpMyAdmin</h5>
                             <h5 class="mycard-subtitle">Projet réalisé en formation en groupe de 3 personnes, en 4 jours. </h5>
                             <p class="mycard-text">Le but était de réaliser une application web pour une école fictive de soutien scolaire, Winnerschool. Ainsi, nous avons créé des fonctions CRUD accessibles suivant le profil (administrateur, secrétaire, élève, etc.). C'est un projet réalisé complétement en MVC et en programmation orientée objet. </p>
@@ -376,47 +416,47 @@
                                 <li>Connexion : administrateur</li>
                             </ul>
                             
-                            <a href="projets/winnerschool/index.php" target="blank" class="btn btncard">Aperçu</a>
-                            <a href="https://github.com/Mathar-sudo/winnerschool/commits/main" target="blank" class="btn btncard">Code source</a>
+                            <a href="projets/winnerschool/index.php" target="blank" class="btn btncard btncard-margin">Aperçu</a>
+                            <a href="https://github.com/Mathar-sudo/winnerschool/commits/main" target="blank" rel="noopener" class="btn btncard">Code source</a>
                         </div>
                     </div>
                 </div>
             
-                <div class="col-xl-5 col-lg-5 col-md-8 col-sm-10">
+                <div class="col-xl-10 col-lg-10 col-md-8 col-sm-10">
                     <div class="mycard">
                         <img src="assets/dynamic-jet.JPG" alt="Projet Dynamic Jet">
                         <div class="mycard-body">
-                          <h3 class="mycard-title">Dynamic Jet</h3>
+                          <h4>Dynamic Jet</h4>
                           <h5>Outils : HTML5/CSS3/Bootstrap/PHP7/MySQl avec PhpMyAdmin</h5>
                           <h5 class="mycard-subtitle">Projet réalisé en formation en groupe de 3 personnes en 3 jours.</h5>
                           <p class="mycard-text">Nous devions créer un site internet pour Dynamic-Jet, une entreprise fictive de location de scooter des mers et autres activités nautiques. Le but était donc de créer des fonctions CRUD accessible pour l'administrateur. C'est un projet réalisé en programmation procédurale. </p>
-                          <a href="projets/dynamic-jet/reservation.php" target="blank" class="btn btncard">Aperçu</a>
-                          <a href="https://github.com/Mathar-sudo/portfolio/tree/master/projets/dynamic-jet" target="blank" class="btn btncard">Code source</a>
+                          <a href="projets/dynamic-jet/reservation.php" target="blank" class="btn btncard btncard-margin">Aperçu</a>
+                          <a href="https://github.com/Mathar-sudo/portfolio/tree/master/projets/dynamic-jet" target="_blank" rel="noopener" class="btn btncard">Code source</a>
                         </div>
                       </div>
                 </div>
-                <div class="col-xl-5 col-lg-5 col-md-8 col-sm-10">
+                <div class="col-xl-10 col-lg-10 col-md-8 col-sm-10">
                     <div class="mycard">
                         <img src="assets/brew-lab.JPG" alt="Projet Brew Lab">
                         <div class="mycard-body">
-                          <h3 class="mycard-title">Brew Lab</h3>
+                          <h4>Brew Lab</h4>
                           <h5>Outils : Wordpress, Illustrator, Photoshop</h5>
                           <h5 class="mycard-subtitle">Projet personnel.</h5>
                           <p class="mycard-text">Création d'un site Wordpress pour la brasserie Brew Lab. <br/>Logo et favicon réalisé sur Illustrator. Retouches de certaines photos sur Photoshop. Fait sous Wordpress pour que le client puisse le modifier lui-même par la suite. (Site en construction, en attente de contenu) </p>
-                          <a href="https://thebrewlab.fr" target="blank" class="btn btncard">Aperçu</a>
+                          <a href="https://thebrewlab.fr" rel="noopener" target="_blank" class="btn btncard">Aperçu</a>
                         </div>
                       </div>
                 </div>
-                <div class="col-xl-5 col-lg-5 col-md-8 col-sm-10">
+                <div class="col-xl-10 col-lg-10 col-md-8 col-sm-10">
                     <div class="mycard">
                         <img src="assets/jquery-pages.JPG" alt="Projet JQuery">
                         <div class="mycard-body">
-                          <h3 class="mycard-title">Let's play with this</h3>
+                          <h4>Let's play</h4>
                           <h5>Outils : HTML5/CSS3/JQuery</h5>
                           <h5 class="mycard-subtitle">Projet personnel.</h5>
                           <p class="mycard-text">Exercice personnel pour manier les class avec JQuery.</p>
-                          <a href="projets/jquery-pages/index.html" class="btn btncard">Aperçu</a>
-                          <a href="https://github.com/Mathar-sudo/portfolio/tree/master/projets/dynamic-jet" class="btn btncard">Code source</a>
+                          <a href="projets/jquery-pages/index.html" class="btn btncard btncard-margin">Aperçu</a>
+                          <a href="https://github.com/Mathar-sudo/portfolio/tree/master/projets/jquery-pages" rel="noopener" target="_blank" class="btn btncard">Code source</a>
                         </div>
                       </div>
                 </div>
@@ -436,25 +476,33 @@
           <section class="container-fluid">
             <div class="row justify-content-center space" id="contact">
                 <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 title background-title">
-                        <h2>Contactez-moi</h2>                    
+                        <h2>Contact</h2>                    
                 </div>
             </div>
 
             <div class="row justify-content-center" id="bloc-contact">
-                <div class="col-12" id="coordonnees">
+                <div class="col-12 justify-content-center" id="coordonnees">
                 
-                  <p>Mathilde Arena</p>
-                  <p><i class="fa fa-compass"></i>  Lyon</p>
-                  <p> <a href="mailto:ma.arenam@gmail.com" class="mail"><i class="fa fa-envelope"></i>  ma.arenam@gmail.com</a></p>
-                  <a href='./assets/CV.pdf' class="cv">Téléchargez mon CV</a>
+                    <p>Mathilde Arena</p>
+                    <p><i class="fa fa-compass"></i>  Lyon</p>
+                    <a href='./assets/CV.pdf' class="cv">Téléchargez mon CV</a>
+                    <p class="subtitle">Pour plus d'informations ou boire un café ensemble contactez-moi !</p>
+                    <form action="" class="col-lg-6 col-sm-10">                        
+                        <input type="email" class="form-control mb-3" placeholder="Mail" required>
+                        <input type="text" class="form-control mb-3" placeholder="Objet" required>
+                        <textarea name="" class="form-control mb-3" placeholder="Laissez moi un petit mot ici. " id="" cols="30" rows="10" required></textarea>
+                        <input type="submit" name="envoyer" class="btn envoyer-hover" value="Envoyer" >    
+                    </form>
+                    
                  </div>
                  
             </div>
          </section>
     </main>
     <footer>
-        <a href="https://www.linkedin.com/in/mathilde-arena-93a726195/" alt="Lien vers linkedin" ><i class="fab fa-linkedin"></i></a> 
-        <a href="https://github.com/Mathar-sudo" alt="Lien vers github"><i class="fab fa-github-square"></i></a> 
+        <a href="mailto:ma.arenam@gmail.com" class="mail" alt="Lien pour envoyer un mail"><i class="fa fa-envelope"></i> </a>
+        <a href="https://www.linkedin.com/in/mathilde-arena-93a726195/" rel="noopener" alt="Lien vers linkedin" ><i class="fab fa-linkedin"></i></a> 
+        <a href="https://github.com/Mathar-sudo" rel="noopener" alt="Lien vers github"><i class="fab fa-github-square"></i></a> 
 
     </footer>
         <!-- Bootstrap core JS-->

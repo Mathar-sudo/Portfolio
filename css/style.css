@@ -80,10 +80,6 @@ nav .navbar-toggler{
     padding-top: 5%;
     text-align: center;
 }
-.presentation span{
-    font-size: 1.8rem;
-    line-height: 5rem;
-}
 .presentation a{
     text-decoration: none;
 }
@@ -233,19 +229,24 @@ nav .navbar-toggler{
 /******** Réalisations ************/
 #realisations .ensemblecard{
     margin: 40px 0 35px 0;
+    
 }
 #realisations .mycard{
     background-color:rgba(114, 158, 139,0.8);
     margin-bottom: 30px;
     color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 10px 8px 10px #b4b4b4;
+    display: flex;
+    padding: 30px 30px 30px 30px;
 }
 #realisations .mycard img{
-    
-    padding:30px;
-    
+    width: 40%;
+    height: 40%;
+    align-self: center;
 }
 #realisations .mycard-body{
-    padding: 10px 20px 20px 20px;
+   padding-left: 30px;
 }
 #realisations .mycard-subtitle{
     font-size: 0.9rem;
@@ -263,16 +264,18 @@ nav .navbar-toggler{
 #realisations .btncard{
     background-color: #214039;
     color: #ffffff;
-    margin-bottom: 10px;
 }
 #realisations .btncard:hover{
     color: #478777;
+}
+#realisations .btncard-margin{
+    margin-right: 15px;
 }
 
 
 /***********Contact************/
 #bloc-contact{
-    margin: 70px 0 35px 0;
+    margin: 50px 0 35px 0;
 }
 #coordonnees{
     text-align: center;
@@ -298,6 +301,7 @@ nav .navbar-toggler{
     text-transform: uppercase;
     overflow: hidden;
     transition: 1s all ease;
+
 }
 .cv::before{
     background: #214039;
@@ -310,9 +314,24 @@ nav .navbar-toggler{
     transition: all 0.6s ease;
     width: 0%;
     height: 100%;
+    
 }
 .cv:hover::before{
     width: 100%;
+}
+#bloc-contact .subtitle{
+    font-size: 0.8rem;
+    color: #b4b4b4;
+}
+#bloc-contact form{
+    margin: auto;
+}
+#bloc-contact .envoyer-hover{
+    background: #729E8B;
+    color: #ffffff;
+}
+#bloc-contact .envoyer-hover:hover{
+    background: #214039;
 }
 
 /***********Footer************/
@@ -361,7 +380,24 @@ footer a:hover{
     .bloc-comp{
         padding:0;
     }
-
+    /* Réalisations*/
+    #realisations .mycard{
+        display:grid;
+        text-align: center;
+    }
+    #realisations .mycard img{
+        width: 80%;
+        height: 80%;
+        margin: auto;
+    }
+    #realisations .mycard-body{
+        padding: 20px;
+    }
+    #realisations .mycard-text{
+        font-size: 0.8rem;
+        margin-top: 10px; 
+    }
+}
  
   
 
@@ -447,6 +483,32 @@ footer a:hover{
     #coordonnees a{
         font-size: 0.6rem;
     }
+    /* Réalisations*/
+    #realisations h4{
+        font-size: 1.2rem;
+    }
+    #realisations h5{
+        font-size: 0.8rem;
+    }
+    #realisations .mycard-subtitle{
+        font-size: 0.8rem;
+    }
+    #realisations .mycard img{
+        width: 100%;
+        height: 100%;
+    }
+    #realisations .mycard-text{
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+    #pass{
+        font-size: 0.6rem;
+        line-height: 0.8rem;
+    }
+    #realisations .btncard{
+        font-size: 0.8rem;
+    }
+
 }
   
 
