@@ -238,7 +238,7 @@ nav .navbar-toggler{
     border-radius: 5px;
     box-shadow: 10px 8px 10px #b4b4b4;
     display: flex;
-    padding: 30px 30px 30px 30px;
+    padding: 30px;
 }
 #realisations .mycard img{
     width: 40%;
@@ -262,11 +262,11 @@ nav .navbar-toggler{
     margin-bottom: 30px;
 }
 #realisations .btncard{
-    background-color: #214039;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #478777;
 }
 #realisations .btncard:hover{
-    color: #478777;
+    background-color: #214039;
 }
 #realisations .btncard-margin{
     margin-right: 15px;
@@ -505,10 +505,7 @@ footer a:hover{
         font-size: 0.6rem;
         line-height: 0.8rem;
     }
-    #realisations .btncard{
-        font-size: 0.8rem;
-    }
-
+  
 }
   
 
