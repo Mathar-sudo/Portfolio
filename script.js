@@ -1,6 +1,5 @@
-
 $(document).ready(function(){
-
+//Menu responsif
     $(".nav-item").click(function(){
         $("#navbarResponsive").toggle();
 });

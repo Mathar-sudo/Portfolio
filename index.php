@@ -1,3 +1,18 @@
+<?php
+if(isset($_POST['envoyer'])){
+    $mail=$_POST['mail'];
+    $objet=$_POST['objet'];
+    $text=$_POST['text'];
+
+    $envoi = mail('ma.arenam@gmail.com',$objet, $text, 'From : '.$mail);
+    if($envoi){
+       $message = "<p>Votre message a bien été envoyé. Merci, je vous réponds au plus vite ! </p>";
+    }
+    else{
+        $message = "<p>Votre message n'a pas pu être envoyé. </p>";
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -486,18 +501,19 @@
                     <p>Mathilde Arena</p>
                     <p><i class="fa fa-compass"></i>  Lyon</p>
                     <a href='./assets/CV.pdf' class="cv">Téléchargez mon CV</a>
-                    <!-- <p class="subtitle">Pour plus d'informations ou boire un café ensemble contactez-moi !</p>
-                    <form action="" class="col-lg-6 col-sm-10">                        
-                        <input type="email" class="form-control mb-3" placeholder="Mail" required>
-                        <input type="text" class="form-control mb-3" placeholder="Objet" required>
-                        <textarea name="" class="form-control mb-3" placeholder="Laissez moi un petit mot ici. " id="" cols="30" rows="10" required></textarea>
+                    <p class="subtitle">Pour plus d'informations ou boire un café ensemble contactez-moi !</p>
+                    <form action="#formcontact" method="post" id="formcontact" class="col-lg-6 col-sm-10">                        
+                        <input type="email" class="form-control mb-3" name="mail" placeholder="Mail" required>
+                        <input type="text" class="form-control mb-3" name="objet" placeholder="Objet" required>
+                        <textarea class="form-control mb-3" name="text" placeholder="Laissez moi un petit mot ici. " id="" cols="30" rows="10" required></textarea>
                         <input type="submit" name="envoyer" class="btn envoyer-hover" value="Envoyer" >    
-                    </form> -->
+                        <?php echo $message ?>
+                    </form>
                     
                  </div>
                  
             </div>
-         </section>
+        </section>
     </main>
     <footer>
         <a href="mailto:ma.arenam@gmail.com" class="mail" alt="Lien pour envoyer un mail"><i class="fa fa-envelope"></i> </a>
